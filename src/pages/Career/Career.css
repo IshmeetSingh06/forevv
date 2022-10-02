@@ -1,0 +1,44 @@
+.careerContainer {
+    height: auto;
+    width: 100%;
+    padding: 6em 0;
+    margin-top: 0em;
+    overflow-x: hidden !important;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.topPage {
+    margin-top: 5em;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+}
+
+.text1 {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-size: 6em;
+    color: #303030;
+    font-weight: 800;
+    line-height: 117px;
+}
+
+.text1 span {
+    color: white;
+}
+
+.text2 {
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-size: 3em;
+}

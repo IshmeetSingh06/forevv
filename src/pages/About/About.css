@@ -1,0 +1,144 @@
+.aboutContainer {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0;
+    margin-top: 4em;
+    overflow-x: hidden !important;
+}
+
+.bannerArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4896EF;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.aboutbottom {
+    margin-top: 5em;
+    width: 100vw;
+    padding-top: 6em;
+    background-color: #4896EF;
+    transform: rotate(-3deg) skew(-10deg);
+}
+
+.whatwedo {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+}
+
+.title {
+    text-align: left;
+    font-size: 4em;
+    font-weight: 900;
+    color: white;
+    display: inline-block;
+    max-width: min-content;
+
+}
+
+.whatwedo .title {
+    padding-right: 1em;
+    border-right: 2px solid white;
+}
+
+.title span {
+    color: #303030;
+}
+
+.whoweare {
+    display: flex;
+    flex-direction: row;
+}
+
+.whoweare .title {
+    padding-left: 1em;
+    border-left: 2px solid white;
+}
+
+
+.description {
+    width: 400px;
+    color: white;
+    display: flex;
+    text-align: justify;
+    font-size: 1.2em;
+    padding-top: 1em;
+    justify-content: center;
+    font-weight: 500;
+    overflow-wrap: break-word;
+    justify-content: center;
+}
+
+.whatwedo .description {
+    padding-left: 0.7em;
+}
+
+.whoweare .description {
+    padding-right: 4em;
+}
+
+
+
+.roadMap {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.roadMap img:nth-child(1) {
+    width: 50vw;
+}
+
+.roadMap img:nth-child(2) {
+    width: 80vw;
+}
+
+.aboutend {
+    padding: 5em 20em;
+    display: flex;
+    background-color: #CFECFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
+
+.para {
+    font-size: 2em;
+    color: #303030;
+    text-align: left;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.ceotext{
+    font-size: 40px;
+    color:#4896EF;
+    font-weight: 800;
+}
+
+.community{
+    color:#4896EF;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.communitydesc{
+    text-align: center;
+    color: #303030;
+    font-size: 2em;
+    font-weight: 600;
+}
+.communityend{
+    color:#303030;
+    font-size: 3em;
+    font-weight: 400;
+}
