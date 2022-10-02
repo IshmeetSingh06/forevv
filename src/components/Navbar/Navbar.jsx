@@ -1,14 +1,19 @@
 import React from "react";
 import "./Navbar.css";
 import appIcon from "../../assets/appicon.jpg";
-import { Link } from "react-router-dom";
-
+import { Link, Navigate, useNavigate } from "react-router-dom";
 const Navbar = () => {
+  const navigate = useNavigate();
   const setActive = (e) => {
     document.querySelector(".active").classList.remove("active");
     e.target.classList.add("active");
   };
-
+  const switchAbout = () => {
+    navigate("/about");
+  };
+  const switchCareer = () => {
+    navigate("/careers");
+  };
   return (
     <header>
       <nav>
@@ -16,16 +21,16 @@ const Navbar = () => {
           <div className="navbar">
             {/* <img src={appIcon} alt="" /> */}
             <div className="navlink active" onClick={setActive}>
-              <a href="/">Home</a>
+              Home
             </div>
             <div className="navlink" onClick={setActive}>
-              <a href="/careers">Careers</a>
+              Careers
             </div>
-            <div className="navlink" onClick={setActive}>
-              <a href="/about">Get early access</a>
+            <div className="navlink" onClick={setActive && switchCareer}>
+              Get early access
             </div>
-            <div className="navlink" onClick={setActive}>
-              <a href="/about">About us</a>
+            <div className="navlink" onClick={setActive && switchAbout}>
+              About us
             </div>
           </div>
         </div>

@@ -49,7 +49,6 @@ const About = () => {
           we really appreciate your support in this journey.
         </div>
         <div className="ceoarea">
-          <div className="bar"></div>
           <div className="ceotext">Letter from the CEO's office</div>
         </div>
         <div className="community">Join out community</div>
