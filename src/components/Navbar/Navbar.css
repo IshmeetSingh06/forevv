@@ -9,7 +9,7 @@ header {
 }
 
 a {
-    color: black;
+    color: black !important;
 }
 
 header nav {
