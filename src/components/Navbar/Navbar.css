@@ -8,10 +8,6 @@ header {
     transition: .1s ease
 }
 
-a {
-    color: black !important;
-}
-
 header nav {
     height: 100%;
     width: 100%;

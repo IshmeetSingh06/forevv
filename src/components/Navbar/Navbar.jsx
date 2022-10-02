@@ -4,32 +4,40 @@ import appIcon from "../../assets/appicon.jpg";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
-  const setActive = (e) => {
+
+  const switchAbout = (e) => {
     document.querySelector(".active").classList.remove("active");
     e.target.classList.add("active");
-  };
-  const switchAbout = () => {
     navigate("/about");
   };
-  const switchCareer = () => {
+  const switchCareer = (e) => {
+    document.querySelector(".active").classList.remove("active");
+    e.target.classList.add("active");
     navigate("/careers");
   };
+
+  const switchHome = (e) => {
+    document.querySelector(".active").classList.remove("active");
+    e.target.classList.add("active");
+    navigate("/");
+  };
+
   return (
     <header>
       <nav>
         <div className="headerContainer">
           <div className="navbar">
             {/* <img src={appIcon} alt="" /> */}
-            <div className="navlink active" onClick={setActive}>
+            <div className="navlink active" onClick={switchHome}>
               Home
             </div>
-            <div className="navlink" onClick={setActive}>
+            <div className="navlink" onClick={switchCareer}>
               Careers
             </div>
-            <div className="navlink" onClick={setActive && switchCareer}>
+            <div className="navlink" onClick={switchHome}>
               Get early access
             </div>
-            <div className="navlink" onClick={setActive && switchAbout}>
+            <div className="navlink" onClick={switchAbout}>
               About us
             </div>
           </div>

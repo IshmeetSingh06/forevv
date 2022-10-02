@@ -113,7 +113,7 @@
 .bar {
     width: 100vw;
     padding-top: 4em;
-    z-index: 99;
+    z-index: 90;
     background-color: #CFECFF;
     transform: rotate(-3deg) skew(-10deg);
 }
