@@ -1,0 +1,23 @@
+header {
+    width: 100vw;
+    justify-content: center;
+    max-height: 50px;
+    padding-top: 2em;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: fit-content;
+    padding: 0.6em 2em;
+    display: flex;
+    gap:3em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background-color: white;
+}
