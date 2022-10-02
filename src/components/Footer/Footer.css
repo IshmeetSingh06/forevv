@@ -5,10 +5,15 @@
   padding: 5rem;
 }
 
-.footerContainer{
+a {
+  color: white;
+}
+
+.footerContainer {
   margin-left: 5em;
   margin-right: 5em;
 }
+
 .footer-top {
   padding-top: 5rem;
   display: grid;
